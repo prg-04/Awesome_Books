@@ -15,6 +15,20 @@ body {
   display: none;
 }
 
+.navlinks.open {
+  display: flex;
+position: absolute;
+top:0;
+left:  0;
+  flex-direction: column;
+
+}
+
+.navlinks.open ul {
+display: flex;
+flex-direction: column;
+}
+
 .red-on-hover {
   color: black;
   transition: color 0.5s ease;

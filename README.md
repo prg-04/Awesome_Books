@@ -4,7 +4,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -19,10 +18,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
+# 📖 [Awesome Books] <a name="about-project"></a>
 
-# 📖 [Awesome Books ES6] <a name="about-project"></a>
-
-> **[Awesome Books ES6]**  Awesome Books ES6 is a simple website that is created using ES6 syntax and modules to displays a list of books and allows you to add and remove books from that list.
+> **[Awesome Books]**  Awesome Books is a simple website that is created using ES6 syntax and modules to displays a list of books and allows you to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,37 +36,13 @@
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#"></a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#"></a></li>
-  </ul>
-</details>
-
-
 ### Key Features <a name="key-features"></a>
-- **[Represent most recent projcts]**
-- **[Represnt skills and technogies]**
-- **[Create contact context for visitors]**
+- **[You can easily add or remove you favourite books]**
+- **[Smooth navigation]**
+- **[Clean and interactive UI]**
 - **[Responsive with the view of desktop and mobile]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -89,17 +63,12 @@ Clone this repository to your desired folder:
 
 Use the following Commands:
   - cd your-desired-folder
-  - git clone https://github.com/prg-04/Awesome_Books
-
-
-
 
 ### Install
 
 Install this project with:
-  - You can deploy it with your hosting provider of your choice.
-
-
+    - git clone https://github.com/prg-04/Awesome_Books
+    -Next run npm install --legacy-peer-deps to install the dependencies
 ### Usage
 
 - Open your text editor of choice and open the index.html using a live server to use the website
