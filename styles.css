@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.navlinks {
+  display: none;
+}
+
+.red-on-hover {
+  color: black;
+  transition: color 0.5s ease;
+}
+
+.red-on-hover:hover {
+  color: red;
+}
+
+.link {
+  border-left: 1px solid black;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  align-self: center;
+  padding: 1rem;
+}
+
+#form form {
+  width: 100%;
+}
+
+#form form input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#add_book,
+#form,
+#contact {
+  display: none;
+}
+
+#books tr {
+  display: flex;
+}
+
+.contact_info {
+  list-style: disc;
+}
+
+tr.gray {
+  background-color: #f2f2f2;
+}
+
+tr.white {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+  .navlinks {
+    display: block;
+  }
+
+  header > svg {
+    display: none;
+  }
+}
